@@ -1,0 +1,13 @@
+{
+  "name": "dc-https-traefik-mongo-redis",
+  "version": "1.0.0",
+  "author": "Nathan Braun <n8tz.js@gmail.com>",
+  "scripts": {
+    "docker_start": "docker-compose up&",
+    "start": "ws -d ./www -p 8080"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "local-web-server": "^2.6.1"
+  }
+}
